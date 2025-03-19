@@ -1,27 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Task List</title>
-    <link rel="stylesheet" href="main.css">
+    <title>Список Завдань</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Task List</h1>
-    <p id="msg">Current tasks:</p>
-    
-    <!-- Введення нової задачі -->
-    <input type="text" id="new-task" placeholder="Add a new task">
-    <button onclick="addTask()">Add</button>
-
-    <!-- Список задач -->
-    <ul id="task-list">
-      <li class="list">Add visual styles</li>
-      <li class="list">Add light and dark themes</li>
-      <li class="list">Enable switching the theme</li>
+    <h1>Список Завдань</h1>
+    <p id="msg">Поточні завдання:</p>
+    <ul id="taskList">
+      <!-- Завдання будуть додаватися сюди -->
     </ul>
+    <input type="text" id="newTaskInput" placeholder="Введіть нове завдання">
+    <button id="addTaskBtn">Додати Завдання</button>
 
-    <script src="app.js"></script>
+    <!-- Оновлений шлях до script.js -->
+    <script src="script.js"></script>
   </body>
 </html>
